@@ -3,7 +3,7 @@
         {
             "name": "WSL",
             "intelliSenseMode": "gcc-x64",
-            "compilerPath": "/usr/bin/gcc",
+            "compilerPath": "/usr/bin/clang",
             "includePath": [
                 "${workspaceFolder}/**"
             ],

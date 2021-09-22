@@ -4,13 +4,14 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "clang++-11",
+            "command": "clang++",
             "args": [
                 "-std=c++17",
                 "-g",
                 "-O3",
                 "-I/opt/boost/gcc/include",
-                "-I/home/bkmel/dev/ProCon/ac-library",
+                "-I",
+                "${workspaceFolder}/ac-library",
                 "-L/opt/boost/gcc/lib",
                 "${file}",
                 "-o",
